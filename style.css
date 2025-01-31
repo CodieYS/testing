@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+.gradient-background {
+    height: 100vh;
+    background: linear-gradient(300deg, #ea06ff, #a844ff, #ff4a9c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.first-block{
+    display: block;
+    padding-top: 13.7rem;
+}
+#first h1{
+    font-family: "Sacramento", cursive;
+    font-size: 7rem;
+}
+#first p{
+    font-size: 2.6rem;
+}
+#second h1{
+    font-family: "Sacramento", cursive;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e570e7+32,c45cc0+46,d9b5e2+93 */
+color:  rgb(229,112,231); /* Old browsers */
+color:  -moz-linear-gradient(top,  rgba(229,112,231,1) 32%, rgba(196,92,192,1) 46%, rgba(217,181,226,1) 93%); /* FF3.6-15 */
+color: -webkit-linear-gradient(top,  rgba(229,112,231,1) 32%,rgba(196,92,192,1) 46%,rgba(217,181,226,1) 93%); /* Chrome10-25,Safari5.1-6 */
+color: linear-gradient(to bottom,  rgba(229,112,231,1) 32%,rgba(196,92,192,1) 46%,rgba(217,181,226,1) 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#d9b5e2',GradientType=0 ); /* IE6-9 */
+}
+#third h1{
+    color: rgba(123, 0, 255, 0.703);
+}
+#fourth h1{
+    color: rgba(182, 5, 226, 0.703);
+}
+p{
+    font-size: 3rem;
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+#fivth p{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 1rem;
+}
+#fivth {
+    margin:0;
+}
+.futr{
+    background-size: cover;
+    background: linear-gradient(300deg, #f9b3ff, #c690f7, #ff84bb);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes futr{
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+}
